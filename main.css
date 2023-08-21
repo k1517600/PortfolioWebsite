@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Cool";
+    src: url("mainfont.otf")
+}
+
+@font-face {
+    font-family: "Caligraphy";
+    src: url("caligraphy.ttf");
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #c7c7c7;
+    overflow: hidden;
+    font-family: 'Cool', Arial, sans-serif;
+    position: fixed;
+    width: 100%;
+    height: 15%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 500%;
+    width: 20%;
+    height: 100%;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.my_name {
+    font-family: 'Caligraphy', Arial, sans-serif;
+    float: right;
+    padding-right: 20px;
+}
