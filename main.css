@@ -7,6 +7,11 @@
     font-family: "Caligraphy";
     src: url("caligraphy.ttf");
 }
+
+@font-face {
+    font-family: "Main";
+    src: url("bodyfont.ttf")
+}
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #c7c7c7;
@@ -57,7 +62,7 @@
     color: black;
     padding-top: 8%;
     padding-left: 1%;
-    font-family: Arial;
+    font-family: 'Main';
     font-size: 2vw;
 
 }
