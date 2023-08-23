@@ -8,7 +8,14 @@
     src: url("caligraphy.ttf");
 }
 
+html {
+    height: 100%;
+    width: 100%;
+}
+
 body {
+    height:100%;
+    width:100%;
     margin: 0;
     background-color: #080415;
 }
@@ -28,7 +35,7 @@ body {
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding-top: 1%;
+    padding: 1.5%;
     text-decoration: none;
     font-size: 3vw;
     width: 16%;
@@ -51,21 +58,28 @@ body {
     float: right;
     color: #f2f2f2;
     text-align: center;
-    padding-right: 0px;
-    padding-top: 20px;
-    font-size: 2.3vw;
-    width: 18%;
+    padding-top: 1.5%;
+    padding-right: 1.5%;
+    text-decoration: none;
+    font-size: 2.9vw;
+    z-index: 2;
     height: 100%;
 }
 
 .contentbubble {
-    padding-top: 70%;
-    display: flex;
+    z-index: -1;
+    position: relative;
+    padding-top: 10%;
+    width: 100%;
+    height: 100%;
+    padding-left: 2%;
 }
 
-.creations {
-    width: 45%;
-    height: 43%;
-    border-radius: 3%;
-    outline: #4974FF;
+.creations{
+  border-radius: 25px;
+  background-color: #4974FF;
+  background-position: left top;
+  background-repeat: repeat;
+  width: 43%;
+  height: 30%;
 }
