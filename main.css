@@ -19,8 +19,8 @@ html {
 }
 
 body {
-    height:100%;
-    width:100%;
+    height: 100%;
+    width: 100%;
     margin: 0;
     background-color: #080415;
 }
@@ -79,6 +79,7 @@ body {
     padding-left: 1%;
     font-family: 'Main';
     font-size: 2vw;
+}
 
 .contentbubble {
     z-index: -1;
@@ -87,14 +88,35 @@ body {
     width: 100%;
     height: 100%;
     padding-left: 2%;
+    display: flex;
 }
 
 
-.creations{
-  border-radius: 25px;
-  background-color: #4974FF;
-  background-position: left top;
-  background-repeat: repeat;
-  width: 43%;
-  height: 30%;
+.creations {
+    align-self: start;
+    float: left;
+    position: relative;
+    border-radius: 2vh;
+    background-color: #4974FF;
+    background-position: left top;
+    background-repeat: repeat;
+    width: 43%;
+    aspect-ratio: 2 / 1;
+}
+
+.creationsimage {
+    position:absolute;
+    top: 5%;
+    left: 2.5%;
+    width: 95%;
+    height:90%;
+}
+
+.gradialshadow {
+
+    width:95%;
+    height:90%;
+    position:relative;
+    top: 5%;
+    left: 2.5%;
 }
