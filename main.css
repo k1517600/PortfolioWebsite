@@ -7,9 +7,15 @@
     font-family: "Caligraphy";
     src: url("caligraphy.ttf");
 }
+
+body {
+    margin: 0;
+    background-color: #080415;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #c7c7c7;
+    background-color: #11115b;
     overflow: hidden;
     font-family: 'Cool', Arial, sans-serif;
     position: fixed;
@@ -22,7 +28,7 @@
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding-top: 1%;
     text-decoration: none;
     font-size: 3vw;
     width: 16%;
@@ -37,7 +43,7 @@
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: #04AA6D;
+    background-color: #2900cc;
     color: white;
 }
 
@@ -47,17 +53,19 @@
     text-align: center;
     padding-right: 0px;
     padding-top: 20px;
-    text-decoration: none;
     font-size: 2.3vw;
     width: 18%;
     height: 100%;
 }
 
-.maincontent {
-    color: black;
-    padding-top: 8%;
-    padding-left: 1%;
-    font-family: Arial;
-    font-size: 2vw;
+.contentbubble {
+    padding-top: 70%;
+    display: flex;
+}
 
+.creations {
+    width: 45%;
+    height: 43%;
+    border-radius: 3%;
+    outline: #4974FF;
 }
